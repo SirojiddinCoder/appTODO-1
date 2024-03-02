@@ -1,0 +1,142 @@
+html, body {
+  margin: 0px;
+  background-color: violet;
+}
+
+div.container {
+  width: 1140px;
+  margin: 0px auto;
+}
+
+table.table1 {
+  width: 100%;
+  margin-top: 3em;
+  border-collapse: collapse;
+  font-family: candara;
+}
+
+table.table1 tr td {
+  text-align: center;
+  padding: 15px 0px;
+  border: 2px solid lime;
+}
+
+table.table1 tr th {
+  border: 2px solid lime;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+div.modals table tr td {
+  padding: 10px 0px;
+  font-family: candara;
+}
+
+section div.container table tbody tr td input {
+  padding: 4px 14px;
+  font-family: candara;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+div.modals table tr td button {
+  padding: 5px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: candara;
+  outline: none;
+
+}
+
+section table.table1 tr td button.edit {
+  width: 100%;
+  height: 25px;
+  background-color: green;
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: candara;
+  outline: none;
+}
+
+section table.table1 tr td button.update {
+  width: 100%;
+  height: 25px;
+  background-color: rebeccapurple;
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: candara;
+  outline: none;
+}
+
+section table.table1 tr td button.cancel {
+  width: 100%;
+  height: 25px;
+  background-color: blue;
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: candara;
+  outline: none;
+}
+
+section table.table1 tr td button.delete {
+  width: 100%;
+  height: 25px;
+  background-color: red;
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: candara;
+  outline: none;
+}
+
+
+section div.create button.create {
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  background-color: green;
+  font-size: 18px;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: candara;
+  outline: none;
+}
+
+div.modals table tr th {
+  padding: 10px 0px;
+}
+
+div.modals table tr td input {
+  padding: 6px 20px;
+  outline: none;
+  font-family: candara;
+  font-size: 15px;
+}
+
+table .hidden {
+  display: none;
+  border: none;
+}
+
+table .edit, .delete {
+  display: block;
+}

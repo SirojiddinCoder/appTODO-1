@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <section>
+    <div class="container">
+      <table class="table1">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Date of birth</th>
+            <th>Job title</th>
+            <th>Salary</th>
+            <th colspan="2">Options</th>
+            <th class="u">Update</th>
+            <th class="c">Cancel</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><input type="text" id="fname" value="Ergashev"></td>
+            <td><input type="text" id="lname" value="Sirojiddin"></td>
+            <td><input type="date" id="age"></td>
+            <td><input type="text" id="job" value="Devoloper"></td>
+            <td><input type="text" id="salary" value="1000$"></td>
+            <td><button class="edit" id="edit">Edit</button></td>
+            <td class="u"><button class="update">Update</button></td>
+            <td class="c"><button class="cancel">Cancel</button></td>
+            <td><button class="delete" id="delete">Delete</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="create" align="right">
+        <button class="create">Create</button>
+      </div> 
+    </div>
+  </section>
+  
+  <script src="./js/main.js"></script>
+</body>
+</html>
